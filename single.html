@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<title>Single</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+
+<!--<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>-->
+<!--<script src="movie.js"></script>-->
+<script src="single.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+	<div class="container_wrap">
+		<!--头部，不需要变化-->
+		<div class="header_top">
+		    <div class="col-sm-3 logo"><a href="index.html"><img src="images/logo.jpg" alt=""/></a></div>
+		    <div class="col-sm-6 nav">
+			  <ul>
+				  <li> <span class="simptip-position-bottom simptip-movable" data-tooltip="comic"><a href="index.html"> </a></span></li>
+				  <li><span class="simptip-position-bottom simptip-movable" data-tooltip="movie"><a href="index.html"> </a> </span></li>
+				  <li><span class="simptip-position-bottom simptip-movable" data-tooltip="video"><a href="index.html"> </a></span></li>
+				  <li><span class="simptip-position-bottom simptip-movable" data-tooltip="game"><a href="index.html"> </a></span></li>
+				  <li><span class="simptip-position-bottom simptip-movable" data-tooltip="tv"><a href="index.html"> </a></span></li>
+				  <li><span class="simptip-position-bottom simptip-movable" data-tooltip="more"><a href="index.html"> </a></span></li>
+			 </ul>
+			</div>
+			<div class="col-sm-3 header_right">
+			   <ul class="header_right_box">
+				 <li><img src="images/p1.jpg" alt=""/></li>
+				 <li><p>Haozheng Luan</p></li>
+				 <li class="last"><i class="edit"> </i></li>
+				 <div class="clearfix"> </div>
+			   </ul>
+			</div>
+			<div class="clearfix"> </div>
+	      </div>
+
+	   <div class="content">
+      	   <div class="movie_top">
+      	         <div class="col-md-9 movie_box">
+                        <div class="grid images_3_of_2">
+                        	<div class="movie_image">
+                                <span class="movie_rating">5.0</span>
+                                <img src="images/my_bg.jpg "  onerror="setDefaultImg(this)" class="img-responsive" alt="poster"/>
+                            </div>
+
+							<!--投票区域，没什么用-->
+                            <div class="movie_rate">
+								<br>
+								<div><p class="movie_option"><strong>Rating People: </strong><span id="peo"> </span></p></div>
+								<br>
+								<div><p class="movie_option"><strong>Stars: </strong><span id="sta"> </span></p></div>
+								<br>
+                            	<div class="rating_desc"><p>Your Vote :</p></div>
+                            	<form action="" class="sky-form">
+
+							     <fieldset>					
+								   <section>
+
+								     <div class="rating">
+										<input type="radio" name="stars-rating" id="stars-rating-5">
+										<label for="stars-rating-5"><i class="icon-star"></i></label>
+										<input type="radio" name="stars-rating" id="stars-rating-4">
+										<label for="stars-rating-4"><i class="icon-star"></i></label>
+										<input type="radio" name="stars-rating" id="stars-rating-3">
+										<label for="stars-rating-3"><i class="icon-star"></i></label>
+										<input type="radio" name="stars-rating" id="stars-rating-2">
+										<label for="stars-rating-2"><i class="icon-star"></i></label>
+										<input type="radio" name="stars-rating" id="stars-rating-1">
+										<label for="stars-rating-1"><i class="icon-star"></i></label>
+									 </div>
+								  </section>
+							    </fieldset>
+						  	   </form>
+						  	   <div class="clearfix"> </div>
+                            </div>
+                        </div>
+
+                        <div class="desc1 span_3_of_2">
+
+							<p class="movie_option"><strong>Title: </strong><span id="tit"> </span></p>
+							<br>
+							<p class="movie_option"><strong>Aka: </strong><span id="aka"> </span></p>
+							<br>
+                        	<p class="movie_option"><strong>Country: </strong><span id="country"> </span></p>
+							<br>
+                        	<p class="movie_option"><strong>Year: </strong><span id="year"></span></p>
+							<br>
+                        	<p class="movie_option"><strong>Category: </strong><span id="cate"> </span></p>
+							<br>
+                        	<p class="movie_option"><strong>Release date: </strong><span id="rel"></span></p>
+							<br>
+                        	<p class="movie_option"><strong>Director: </strong><span id="dir"></span></p>
+							<br>
+                        	<p class="movie_option"><strong>Actors: </strong><span id="act"></span></p>
+							<br>
+							<p class="movie_option"><strong>Duration: </strong><span id="dur"></span></p>
+							<br>
+							<p class="movie_option"><strong>Language: </strong><span id="lan"> </span></p>
+							<br>
+							<p class="movie_option"><strong>Writers: </strong><span id="wri"> </span></p>
+							<br>
+
+							<p class="movie_option"><strong>Summary: </strong><span class="m_4"> </span></p>
+							<br>
+                            <div class="down_btn"><a class="btn1" href="#">Download</a></div>
+                         </div>
+                        <div class="clearfix"> </div>
+
+                      <div class="clearfix"> </div>
+                  </div>
+           </div>
+    </div>
+    </div>
+</div>
+
+	<!--底部不需要变化-->
+<div class="container1">
+ <footer id="footer">
+ 	<div id="footer-3d">
+		<div class="gp-container">
+			<span class="first-widget-bend"> </span>
+		</div>		
+	</div>
+    <div id="footer-widgets" class="gp-footer-larger-first-col">
+		<div class="gp-container">
+            <div class="footer-widget footer-1">
+            	<div class="wpb_wrapper">
+					<img src="images/f_logo.jpg" alt=""/>
+				</div> 
+	          <br>
+	          <p>This website is dedicated to providing excellent movies for users.</p>
+			  <p class="text">This website serves you wholeheartedly.</p>
+			 </div>
+			 <div class="footer_box">
+			  <div class="col_1_of_3 span_1_of_3">
+					<h3>Categories</h3>
+					<ul class="first">
+						<li><a href="#">Dance</a></li>
+						<li><a href="#">History</a></li>
+						<li><a href="#">Specials</a></li>
+					</ul>
+		     </div>
+		     <div class="col_1_of_3 span_1_of_3">
+					<h3>Information</h3>
+					<ul class="first">
+						<li><a href="#">New products</a></li>
+						<li><a href="#">top sellers</a></li>
+						<li><a href="#">Specials</a></li>
+					</ul>
+		     </div>
+		     <div class="col_1_of_3 span_1_of_3">
+					<h3>Follow Us</h3>
+					<ul class="first">
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Youtube</a></li>
+					</ul>
+					<div class="copy">
+				      
+			        </div>
+		     </div>
+		    <div class="clearfix"> </div>
+	        </div>
+	        <div class="clearfix"> </div>
+		</div>
+	</div>
+  </footer>
+</div>		
+</body>
+</html>
